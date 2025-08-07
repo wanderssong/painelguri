@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel Financeiro | Mercado Guri</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="login" class="login-screen">
+        <img src="img/logo.png" alt="Logo Mercado Guri" class="logo-login" />
+        <h2>🔐 Acesso ao Painel</h2>
+        <input type="text" id="userName" placeholder="Usuário" />
+        <input type="password" id="password" placeholder="Senha" />
+        <button onclick="entrar()">Entrar</button>
+        <p id="erroLogin" class="erro"></p>
+    </div>
+
+
+    <div id="painel" style="display:none;">
+        <header>
+            <h1>Painel Financeiro - Mercado Guri</h1>
+            <button id="toggle-dark">🌙 Modo Escuro</button>
+        </header>
+        <p id="dataAtualizacao"
+            style="text-align:center; font-size:14px; margin-top: -10px; margin-bottom: 20px; color: #fffefe;"></p>
+
+        <div id="empresas"></div>
+        <div id="total-geral" class="total-geral"></div>
+    </div>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        // Aplica modo de fundo apenas na tela de login
+        document.body.classList.add("login-mode");
+    </script>
+</body>
+
+</html>
