@@ -252,12 +252,14 @@ body.login-mode {
 }
 
 .logo-login {
-    width: 120px;
+    width: 160px;
+    max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
-    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5));
+    margin-bottom: 25px;
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.6));
     animation: pulseLogo 3s infinite ease-in-out;
 }
+
 
 /* Animação leve na logo */
 @keyframes pulseLogo {
