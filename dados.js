@@ -3,7 +3,7 @@ const dadosEmpresas = [
     {
         nome: "MERCADO GURI",
         depositos: [
-            { data: "17-08-2025", valor: 500 },
+            { data: "07-08-2025", valor: 500 },
             
             
         ],
@@ -15,4 +15,5 @@ const dadosEmpresas = [
     },
     
     
+
 ];
