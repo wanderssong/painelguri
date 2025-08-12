@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "07/08/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "12/08/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "MERCADO GURI",
@@ -9,11 +9,11 @@ const dadosEmpresas = [
         ],
         gastos: [
             { data: "07-08-2025", valor: 90.00, descricao: "Campanhas dos Pais" },
+            { data: "13-08-2025", valor: 90.00, descricao: "Ofertas da semana" },
             
 
         ]
     },
     
     
-
 ];
