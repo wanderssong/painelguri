@@ -16,6 +16,7 @@ const dadosEmpresas = [
             { data: "26-08-2025", valor: 90.00, descricao: "Ofertas da Semana" },
             { data: "01-09-2025", valor: 90.00, descricao: "Ofertas da independencia" },
             { data: "17-09-2025", valor: 70.00, descricao: "Ofertas da SEMANA" },
+            { data: "24-09-2025", valor: 70.00, descricao: "Ofertas da SEMANA" },
 
 
         ]
