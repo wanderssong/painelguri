@@ -1,4 +1,4 @@
-const ultimaAtualizacao = "01/10/2025"; // SEMPRE ATUALIZAR
+const ultimaAtualizacao = "08/10/2025"; // SEMPRE ATUALIZAR
 const dadosEmpresas = [
     {
         nome: "MERCADO GURI",
@@ -18,6 +18,7 @@ const dadosEmpresas = [
             { data: "17-09-2025", valor: 70.00, descricao: "Ofertas da SEMANA" },
             { data: "24-09-2025", valor: 70.00, descricao: "Ofertas da SEMANA" },
             { data: "01-10-2025", valor: 90.00, descricao: "OUTUBRO ROSA" },
+            { data: "08-10-2025", valor: 90.00, descricao: "ofertas" },
 
 
         ]
