@@ -7,6 +7,7 @@ const dadosEmpresas = [
             { data: "01-09-2025", valor: 500 },
             { data: "05-11-2025", valor: 500 },
             { data: "25-12-2025", valor: 500 },
+            { data: "03-02-2026", valor: 500 },
             
             
         ],
@@ -31,6 +32,9 @@ const dadosEmpresas = [
             { data: "17-12-2025", valor: 70.00, descricao: "OFERTAS DA SEMANA" },
             { data: "17-12-2025", valor: 90.00, descricao: "OFERTAS DA SEMANA" },
             { data: "30-12-2025", valor: 90.00, descricao: "OFERTAS DA SEMANA" },
+            { data: "30-12-2025", valor: 90.00, descricao: "OFERTAS DA SEMANA" },
+            { data: "28-01-2026", valor: 90.00, descricao: "OFERTAS DA SEMANA" },
+            { data: "03-02-2026", valor: 90.00, descricao: "OFERTAS DA SEMANA" },
 
 
         ]
